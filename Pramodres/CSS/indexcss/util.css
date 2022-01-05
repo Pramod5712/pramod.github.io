@@ -1,0 +1,51 @@
+      /*navbar animation*/
+.polling_message {
+  color: white;
+  float: left;
+  margin-right: 2%;
+}
+
+.view-port {
+  background-color: black;
+  height: 8vw;
+  width: 100%;
+  overflow: hidden;
+}
+
+.redeye {
+  background-color: red;
+  background-image: linear-gradient(to right,
+      rgba(0, 0, 0, .9) 25%,
+      rgba(0, 0, 0, .1) 50%,
+      rgba(0, 0, 0, .9) 75%);
+  color: white;
+  height: 100%;
+  width: 20%;
+
+  -webkit-animation: 4s linear 0s infinite alternate move_eye;
+          animation: 4s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 120%; }  }
+        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 120%; }  }
+
+
+
+
+
+          /*social icon animation*/
+
+.iconholder{
+    animation-name:rotate;
+    animation-duration: 10s;
+}
+
+@keyframes rotate{
+  0%{
+     transform: rotate(0);
+     
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}

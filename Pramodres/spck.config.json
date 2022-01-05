@@ -1,0 +1,7 @@
+{
+  "run": {
+    "type": "file",
+    "file": "apps.html",
+    "ignoreCurrent": false
+  }
+}
