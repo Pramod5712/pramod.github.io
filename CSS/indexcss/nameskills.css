@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Fredoka+One&family=Irish+Grover&family=Libre+Baskerville&family=Mochiy+Pop+P+One&family=Mohave:ital,wght@0,700;1,700&family=Oswald:wght@500&family=Pacifico&family=Road+Rage&display=swap');
+        /*ROUGH WORK*/
+.usernamearea{background: transparent;
+    height: 23.9rem;
+    width: 53vw;}
+#username{background: none;
+    height: 12.0rem;
+    width: 53vw;}
+.same{/*border: 0.1px solid black;*/
+    height: 4.0rem;
+    width: 53vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.center{display: flex;
+      justify-content: center;
+      align-items: center;}
+        
+          /*USERNAME AREA*/
+      
+.hi{font-size: 3.5rem;
+font-family: 'Road Rage', cursive;
+      font-weight: 500;
+    
+}
+.iam{font-size: 4.0rem;
+font-family: 'Road Rage', cursive;
+      font-weight: 500;
+      color: darkred;
+    
+}
+
+       
+      .pramod{ background: linear-gradient(90deg,#ff0000,#ffff00,#ff00f3,#0033ff,#ff00c4,#ff0000);
+              background-size: 400%;
+  /*  width: 30vw;*/ font-weight: 600;
+    font-size: 2.7rem;
+    cursor: pointer; /*float: left;*/
+    text-shadow: 0px 0px px blue/*, 0px 0px 2px blue, 0px 0px 2px darkblue, 0px 0px 2px #F43CDB*/; 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+         /*AUTO TYPING AREA*/
+.typedarea{background: transparent;
+          height: 5.6rem;width: 53vw;}
+.auto-input{color: white;
+       font-family: 'Oswald', sans-serif;
+       text-shadow: 1px 1px 2px black, 0px 0px 25px blue, 0px 0px 5px darkblue, 0px 0px 10px #F43CDB;
+       font-size: 3.8rem;}
+       
+       
+ /****************BUTTON AREA********************/
+.button-area{background: transparent;
+      height: 6.4rem; width: auto;
+      position: relative;
+      }
+
+.cmw{background: transparent;
+      height: 4.8rem; width: auto;}
+#cmw{background: linear-gradient(#FFFDE6,#AD71FF);
+     height: 4.8rem; width: 30vw;
+     border-radius: 1.0rem;
+     border: none;
+     color: white; font-size: 2.0rem;
+     font-weight: 500;
+     font-family: 'Fredoka One', cursive;
+     box-shadow: 2px 2px 3px black;}
+
+.hireme{background: transparent;
+      height: 4.8rem; width: auto;
+      margin: 1rem;}
+#hireme{background: linear-gradient(#FFFDE6,#AD71FF);
+     height: 4.8rem; width: 20vw;
+     border-radius: 1.0rem;
+     border: none;
+     color: white;
+     font-size: 2.0rem;
+     font-weight: 500;
+     font-family: 'Fredoka One', cursive;
+     box-shadow: 2px 2px 3px black;}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Irish+Grover&family=Libre+Baskerville&family=Mochiy+Pop+P+One&family=Mohave:ital,wght@0,700;1,700&family=Pacifico&display=swap');
+
+
+
+
+
+
+     #dpnametext {
+
+       padding-bottom: 40px;
+       font-size: 25px;
+       color: white;
+       /*  text-shadow: 2px 2px 4px #000000;*/
+       text-shadow: 1px 1px 2px black, 0px 0px 25px blue, 0px 0px 5px darkblue, 0px 0px 10px #F43CDB;
+     }
+
+/*#skillname{
+   /* font-family: 'Mochiy Pop P One', sans-serif;
+    /*font-family: 'Abril Fatface', cursive;
+    position: relative;
+    top:20px; left: 5px;
+    color: black;
+    width: 200px;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+}*/
+
+#list-holder{
+  
+    position: relative;
+    top:50px; left: px;
+    color:white;
+    width: 220px;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 35px;
+    font-variant: small-caps;
+    text-shadow: 10px 10px 20px #000000, 2px 2px 5px #000000;
+    list-style: none;
+    
+    
+  
+}
+
+.griditemsname{
+  
+    
+}
+
+
+
