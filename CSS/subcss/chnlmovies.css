@@ -1,0 +1,172 @@
+*{ margin: 0;
+  padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+  
+ .center{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  html{
+      font-size: 62.5%;
+  }
+  
+/*  .background{ background: white;
+    background-size: cover;
+    background-blend-mode:;
+  }*/
+
+body{ height: 1000vh;
+  width: 98rem;
+  
+}
+
+
+               /*navbar*/
+div.navbar{
+    height: 5vh;
+    width: 100vw;
+    background: black;
+    color: white;
+    font-size:7.5rem; 
+    font-weight: 500;
+    text-shadow: 1px 1px 2px white, 1px 1px 1px black;
+}
+
+                /*grid  css*/
+div.gridcontainer {background: transparent;
+   height: 718px;
+   width: 100vw;
+   display: grid;
+   grid-template-columns: 25vw 25vw 25vw 25vw;
+   grid-template-rows: 17vh 17vh 17vh 17vh;}
+				
+div.grid-item{background: none;
+				height:17vh;
+				width: 25vw;
+					border: 0.1px solid black;
+					 
+			    }
+.parantofdesignonme{background: none;
+     height: 13vh;
+     width: 25vw;
+    
+          
+}
+
+.design-on-me{background: white;
+             width: 23rem;  height:23rem;
+             border-radius: 11.6rem;
+             box-shadow: .1rem .1rem .7rem black;
+             border: .1rem solid black;
+             }
+             
+.design-on-me img{
+    width:23.2rem;
+}
+
+.nameholder{
+    height: 4vh;
+    font-size: 16.5px;
+   /* background: blue;*/
+}
+
+
+@media (max-width :500px) {
+    html{
+        font-size: 25.5%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**{ margin: 0;
+  padding: 0;}
+  
+ .center{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  html{
+      font-size: 62.5%;
+  }
+  
+/*  .background{ background: white;
+    background-size: cover;
+    background-blend-mode:;
+  }
+
+body{ height: 100vh;
+  width: 100vw;
+  
+}
+               /*navbar
+div.navbar{
+    height: 6vh;
+    width: 100vw;
+    background: black;
+    color: white;
+    font-size: 25px; font-weight: 500;
+    text-shadow: 1px 1px 2px white, 1px 1px 1px black;
+}
+
+                /*grid  css
+div.gridcontainer {background: transparent;
+   height: 718px;
+   width: 100vw;
+   display: grid;
+   grid-template-columns: 25vw 25vw 25vw 25vw;
+   grid-template-rows: 17vh 17vh 17vh 17vh;}
+				
+div.grid-item{background: none;
+				height:17vh;
+				width: 25vw;
+					border: 0.1px solid black;
+					 
+			    }
+.parantofdesignonme{background: none;
+     height: 13vh;
+     width: 25vw;
+    
+          
+}
+
+.design-on-me{background: white;
+             width: 23.5vw;  height: 12.5vh;
+             border-radius: 66px;
+             box-shadow: 1px 1px 1px black;
+             border: 0.1px solid black;
+             }
+
+.nameholder{
+    height: 4vh;
+    font-size: 16.5px;
+   /* background: blue;
+}*/
