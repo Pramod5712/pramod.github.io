@@ -18,10 +18,10 @@
 .main-div{
     background: black;
     height: 100vh; width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+    display: grid;
+  /*  justify-content: center;
+    align-items: center;*/
+    place-items: center;
     
 }
 

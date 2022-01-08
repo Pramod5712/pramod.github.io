@@ -10,6 +10,8 @@ html{
 
 
 body{background: transparent;
+      background: #EFF3FF;
+
   height: 200vh;
   width: 100vw; }
   
@@ -101,28 +103,47 @@ body{background: transparent;
 }
 
 .designonme{
+    color: cornflowerblue;
+
       height: 14.4rem;
-      width: 31.33vw;
+      width: 30.33vw;
       background: #EFF3FF;
       border-radius: 10px;
-      box-shadow: 1px 1px 10px lavender,  1px 1px 1px black ,1px 1px 5px #A497FF,3px 3px 3px black,3px 3px 3px lavender;
-      
+      /*box-shadow: 1px 1px 10px lavender,  1px 1px 1px black ,1px 1px 5px #A497FF,3px 3px 3px black,3px 3px 3px lavender;*/
+     box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark);
       
 }
+.designonme:hover{
+    box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
+    inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
+    text-shadow: 0px 0px 25px blue;
+    cursor: pointer;
+
+}
+:root {
+    --clr-light: white;
+    --clr-med: #d7dfe2;
+    --clr-dark: #90a4ae;
+    --clr-dark-heavy: #546e7a;
+}
+
+
+  
 .imageholder{ background: transparent;
 			height: 12.0rem;
-				width: 31.33vw;
+		    width: 31.33vw;
 			
-				display: flex;
-					justify-content: center;
-					align-items: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 				
 }
+
+
 .nameholder{
       height: 2.4rem;
 				width: 31.33vw;
 			/*	background: firebrick;*/
-			color: cornflowerblue;
 				display: flex;
 					justify-content: center;
 					align-items: center;
@@ -140,6 +161,10 @@ body{background: transparent;
 							
 							
 			}
+.gridphoto:hover{
+		width: 5.0rem;
+		color: red;
+				}
 				
 	/* mediaaaaaaaaaaaaaaaaaaaaaa */
 				

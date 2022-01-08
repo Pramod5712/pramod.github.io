@@ -19,6 +19,6 @@ console.log('hii')
 
 //////////////!!!!!!!!r///</////<<<preloader
     console.log('puna')
-    window.onload = function() {
+    document.onload = function() {
             document.getElementById('preloader').style.display = 'none';
 }

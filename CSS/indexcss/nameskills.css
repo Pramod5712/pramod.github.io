@@ -56,7 +56,7 @@ font-family: 'Road Rage', cursive;
 .auto-input{color: white;
        font-family: 'Oswald', sans-serif;
        text-shadow: 1px 1px 2px black, 0px 0px 25px blue, 0px 0px 5px darkblue, 0px 0px 10px #F43CDB;
-       font-size: 3.5rem;}
+       font-size: 3.2rem;}
        
        
  /****************BUTTON AREA********************/
@@ -76,6 +76,13 @@ font-family: 'Road Rage', cursive;
      font-family: 'Fredoka One', cursive;
      box-shadow: 2px 2px 3px black;}
 
+#cmw:hover{
+background: linear-gradient(#AD71FF,#FFFDE6);
+        box-shadow: 2px 2px 3px blue;
+    text-shadow: 2px 0px 3px black;
+     cursor: pointer;
+
+}
 .hireme{background: transparent;
       height: 4.8rem; width: auto;
       margin: 1rem;}
@@ -88,3 +95,10 @@ font-family: 'Road Rage', cursive;
      font-weight: 500;
      font-family: 'Fredoka One', cursive;
      box-shadow: 2px 2px 3px black;}
+#hireme:hover{
+background: linear-gradient(#AD71FF,#FFFDE6);
+        box-shadow: 2px 2px 3px blue;
+    text-shadow: 2px 0px 3px black;
+    cursor: pointer;
+ 
+}

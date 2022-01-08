@@ -57,7 +57,9 @@ console.log('hiiii')
 window.onload = function() {
     document.getElementById('preloader').style.display = 'none';
    // document.getElementById('webpage').style.display = 'block';
-   // document.getElementById('bod').style.height = '200vh';
+   document.getElementById('bod').style.height = '200vh';
+   document.querySelector(html).style.visiblity = 'visible';
+   
 }
 
 
