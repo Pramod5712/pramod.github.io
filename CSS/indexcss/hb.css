@@ -8,13 +8,16 @@ nav {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    box-shadow: 1px 1px 3px black;
+    height: 50px;
+    box-shadow: 2px 2px 5px black;
+    position: sticky;
+    top:0px; z-index: 10;
+
 }
 nav .mainMenu {
     display: flex;
     list-style: none;
+    height: 50px;
 }
 nav .mainMenu li a {
     display: inline-block;
@@ -28,12 +31,11 @@ nav .mainMenu li a:hover {
     background: rgb(255,94,0);
 }
 nav .openMenu {
+    background: lightslategrey;
     font-size: 2rem;
-   margin: auto;
-   width: 10vw;
+    display: none;
     cursor: pointer;
-    position: fixed;
-    right: 10px;
+    width: 12vw;
     
 }
 nav .mainMenu .closeMenu , .icons i {
@@ -62,9 +64,13 @@ nav .logo {
       /*position: fixed;
       top:3px; left:30%;*/
       margin: auto;
+      height: 50px;
       width: 200px;
       position: fixed;
-      left:15px;
+      left:.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       
   }
  
@@ -119,10 +125,15 @@ nav .logo {
         position: absolute;
         top: 20px;
         right: 20px;
+                font-size: 3rem;
+
 
     }
     nav .openMenu {
-        display: block;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
     }
     nav .mainMenu li a:hover {
         background: none;
@@ -136,4 +147,8 @@ nav .logo {
     nav{
         height: 40px;
     }
+
+ .gsearch{
+     height: 40px;
+ }
 }
