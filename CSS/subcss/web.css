@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Fredoka+One&family=Irish+Grover&family=Libre+Baskerville&family=Mochiy+Pop+P+One&family=Mohave:ital,wght@0,700;1,700&family=Oswald:wght@500&family=Pacifico&family=Road+Rage&display=swap');
 
+html{
+    font-size: 62.25%;
+}
+
 *{	padding: 0;
 	margin: 0;
     font-family: sans-serif;
@@ -12,8 +16,8 @@ body{
 	
 
 .heading{
-        font-size: 20px;
-        margin:5px 0px 0px 4px;
+        font-size: 2.0rem;
+        margin: auto;
         font-family: 'Oswald', sans-serif;
         
         }
@@ -22,31 +26,65 @@ body{
   display: flex;
   flex-wrap: wrap;
   color: black;
-  width: 94.5vw;
+  width: 97.5vw;
   height: auto;
   background-color: white;
-  margin: 10px 10px 0px 10px;
  border-radius: 10px;
+ margin: auto;
+ margin-bottom: 5px;
   box-shadow: 1px 1px 5px #D8D0DF;
 }
 
 
-.iconh{	width: 80px; height: 100px;
+.iconh{	width: 7.0rem; height: 9.0rem;
 				background-color: white;
 				margin: 0px;
 				border-radius: 10px; }
         
-.icon{		    width: 70px;
-				height: 70px;
+.icon{		    width: 6.0rem;
+				height: 6.0rem;
 				background-color: black;
 				margin: 4px;
 				border-radius: 9px;
-				box-shadow: 1px 1px 2px black;				
+				box-shadow: 1px 1px 2px black;	
+				overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
         }
+.icon img{
+    width: 61px;
+}
 
 .apps{
 				text-align: center;
+				font-size: 1.2rem;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

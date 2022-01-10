@@ -9,11 +9,11 @@
         width: 13vw; height: 23.9rem;
        
 }
-.socailicon{background-color: transparent;
+/*.socailicon{background-color: transparent;
           height:4.0rem;
-          width: 4.0rem;}
+          width: 4.0rem;}*/
                
- .iconholder{background: burlywood;
+ .iconholder{background: red;
                  margin-left: 2.5vw;
                  margin-top: 1.2rem;
                  margin-right: 0.5vw;
@@ -22,8 +22,21 @@
                  border-radius: 1.0rem;
                  box-shadow: 1px 1px 5px black;
                  /*border: px solid black*/ }
+
+.iconholder:hover{
+    height: 5.0rem;
+    width: 5.0rem;
+     border-radius: 1.3rem;
+     cursor: pointer;
+}
     
     
  .iconholder img{
  				width: 4.0rem;
+ }
+
+
+ .iconholder img:hover{
+     width: 5.0rem;
+     cursor: pointer;
  }

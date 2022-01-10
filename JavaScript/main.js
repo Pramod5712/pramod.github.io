@@ -67,7 +67,30 @@ window.onload = function() {
 
 
 
+//SOCAIL ICON CLICK JS
+document.getElementById('instac')
+.addEventListener('click', function(){
+    location.href = 'https://instagram.com/joshff_1?utm_medium=copy_link'
+        //  console.log('clicked');
+    });
+    
+document.getElementById('ytc')
+    .addEventListener('click', function() {
+        location.href = 'https://instagram.com/joshff_1?utm_medium=copy_link'
+        //  console.log('clicked');
+    });
 
+document.getElementById('fbc')
+    .addEventListener('click', function() {
+        location.href = 'https://instagram.com/joshff_1?utm_medium=copy_link'
+        //  console.log('clicked');
+    });
+    
+document.getElementById('wpc')
+    .addEventListener('click', function() {
+        location.href = 'https://instagram.com/joshff_1?utm_medium=copy_link'
+        //  console.log('clicked');
+    });
 
 
 

@@ -166,6 +166,16 @@ body{background: transparent;
 		color: red;
 				}
 				
+				
+#msgfv{
+    display: grid;
+    place-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 20vh;
+
+}
+				
 	/* mediaaaaaaaaaaaaaaaaaaaaaa */
 				
 /*@media only screen and (min-width: 700px) {
