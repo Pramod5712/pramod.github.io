@@ -26,6 +26,12 @@ document.getElementById('playlists')
         //  console.log('clicked');
     });
     
+document.getElementById('courses')
+    .addEventListener('click', function() {
+        location.href = 'courses.html'
+        //  console.log('clicked');
+    });
+    
     
 ///////////////////////////////HUMBURGER
     
