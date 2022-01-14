@@ -232,6 +232,17 @@ body{background: transparent;
 }
 
 
+.aasma{
+    background: #FF8800D9;
+    height: 10vh; width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hrtholder{}
+.hrtholder img{height: 50px;}
+
 
 
 

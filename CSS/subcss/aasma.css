@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    background: aliceblue;
+    
+   
+}
+
+.main{overflow: hidden;
+    box-shadow: 1px 1px 10px black;
+    background: url('/pramodaasma.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+   /* -webkit-filter: blur(2px);*/
+    width: 100vw;
+}
+
+.opy{
+        height: 100vh;    width: 100vw;
+        background: #00000054;
+        background: #FAFBFFBF;
+        background: #00000099;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+h1{
+    border: 1px solid red;
+    border-radius: 15px;
+    background: #FAFBFFBF;
+    height: 20vh; width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+h1{
+    color: white;
+        /*    text-shadow: 1px 1px 2px black, 0 0 40px red, 0 0 5px darkred;*/
+animation: changeShaddow 1s linear infinite;
+}
+
+
+@keyframes changeShaddow {
+    0%{
+        text-shadow: 1px 2px 2px black,
+        0 10px 40px red, 0 0 8px darkred;
+    }
+    50%{
+        text-shadow: 2px 1px 2px black,
+        10px 0 40px blue, 0 0 8px darkblue;
+
+   }
+    100%{
+    text-shadow: 1px 2px 2px black,
+        0 10px 40px red, 0 0 8px darkred;
+
+    }
+ 
+    
+}
