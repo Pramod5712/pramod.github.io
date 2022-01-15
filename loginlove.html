@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+ <link rel="stylesheet" href="CSS/subcss/loginlove.css">
+
+</head>
+
+<body><div class="main">
+ <div class="login-box">
+     <h1>Login</h1>
+     <form name="myform" method="post">
+    
+      <div class="textbox">
+          <i class="fas fa-lock"></i>        
+    <input type="text" id="user" placeholder="Username" name="un"></div>
+        
+        
+      <div class="textbox">
+          <i class="fas fa-lock"></i>
+    <input type="password" id="passd" placeholder="Password" name="pass"></div>
+    
+        <input type="button" class="btn" value="Sign in">
+    </form>
+</div>
+    </div>
+<script>
+//var un = document.querySelector('#user');
+//var pass = document.querySelector('#passd');
+var btn = document.querySelector('.btn');
+
+//var unv = un.value;
+//var passv = pass.value;
+
+/*btn.addEventListener('click',()=>{
+if(un=="a" && pass=="123"){
+            alert('sucess');
+
+}else{
+                alert('failed');
+
+}
+    
+});*/
+
+
+
+btn.addEventListener('click',()=>{
+   // alert('hi');
+   var un = document.forms["myform"]["un"].value;
+var pass = document.forms["myform"]["pass"].value;
+
+if(un=="a" && pass=="1"){
+   window.location.href= 'aasma.html';
+  
+
+    
+}else{
+    alert('nikal lowde');
+} 
+    
+    
+});
+
+
+ /*  function log(){
+var un = document.forms["myform"]["un"].value;
+var pass = document.forms["myform"]["pass"].value;
+if(un=="a" && pass=="1"){
+   // window.location.href= 'aasma.html';
+   alert('welcome');
+
+    
+}else{
+    alert('nikal lowde');
+}
+    }*/
+    
+    
+    
+    
+    
+    
+</script>
+</body>
+
+</html>

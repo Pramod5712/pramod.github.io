@@ -82,13 +82,13 @@ document.getElementById('instac')
     
 document.getElementById('ytc')
     .addEventListener('click', function() {
-        location.href = 'https://instagram.com/joshff_1?utm_medium=copy_link'
+        location.href = 'https://m.youtube.com/channel/UCbuj7DpaSy7CD8lxC7jd7pQ'
         //  console.log('clicked');
     });
 
 document.getElementById('fbc')
     .addEventListener('click', function() {
-        location.href = 'https://instagram.com/joshff_1?utm_medium=copy_link'
+        location.href = 'https://www.facebook.com/profile.php?id=100015506165471'
         //  console.log('clicked');
     });
     
