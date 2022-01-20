@@ -41,11 +41,16 @@ const openMenu = document.querySelector('.openMenu');
 
 
 
-openMenu.addEventListener('click',show);
+openMenu.addEventListener('click',()=>{
+    alert('work');
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
+});
 closeMenu.addEventListener('click',close);
 
 
 function show(){
+    alert('work');
     mainMenu.style.display = 'flex';
     mainMenu.style.top = '0';
 }

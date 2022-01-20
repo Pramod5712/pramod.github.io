@@ -24,8 +24,8 @@
 body {background: /*linear-gradient(#D1D4FF     ,#FFD1E4,#FFD1D1)*/whitesmoke;}
 
 
-body .main{background: /*linear-gradient(#D1D4FF,#FFD1E4,#FFD1D1)*/whitesmoke;
-    height: 500vh; width: 100vw;
+body .main{background: /*linear-gradient(#D1D4FF,#FFD1E4,#FFD1D1)*/darkred;
+    height: auto; width: 100vw;
     /* border: 10px solid blue;*/}
           
 body div section ol a{text-decoration: none;}
@@ -62,11 +62,15 @@ body div section ol a li{font-size: 17px;
     margin:10px 0px 10px 0px;
     box-shadow: 3px 3px 7px black;}
 
+.section1{
+    background: hotpink;
+}
 
 
 
 
-@media only screen and (max-width: 600px){
+
+/*@media only screen and (max-width: 600px){
     
 .hiddenzero{
     visibility: hidden;
@@ -78,7 +82,7 @@ body div section ol a li{font-size: 17px;
     
 
     
-}
+}*/
   </style>
 </head>
 
@@ -125,7 +129,7 @@ body div section ol a li{font-size: 17px;
    
    
    
-   
+
    
    <!--section two--------->
    
@@ -205,9 +209,35 @@ body div section ol a li{font-size: 17px;
     
     
     
-    </div>-->
+    </div>--></div>
  
-  
-  <script src="main.js"></script>
+     <script>
+   
+///////////////////////////////HUMBURGER
+    
+    const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+
+
+
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+
+
+function show(){
+    alert('work');
+    mainMenu.style.display = 'block';
+    mainMenu.style.top = '0';
+}
+function close(){
+        alert('closed');
+
+    mainMenu.style.display = 'none';
+}
+console.log('hii')
+   </script>
+
+  <script src="javaScript/main.js">
 </body>
 </html>
