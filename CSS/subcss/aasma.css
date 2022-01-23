@@ -48,7 +48,7 @@ h1{
 h1{
     color: white;
         /*    text-shadow: 1px 1px 2px black, 0 0 40px red, 0 0 5px darkred;*/
-animation: changeShaddow 1s linear infinite;
+animation: changeShaddow .5s linear infinite;
 }
 
 

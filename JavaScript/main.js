@@ -42,7 +42,6 @@ const openMenu = document.querySelector('.openMenu');
 
 
 openMenu.addEventListener('click',()=>{
-    alert('work');
     mainMenu.style.display = 'flex';
     mainMenu.style.top = '0';
 });
@@ -50,14 +49,13 @@ closeMenu.addEventListener('click',close);
 
 
 function show(){
-    alert('work');
     mainMenu.style.display = 'flex';
     mainMenu.style.top = '0';
 }
 function close(){
     mainMenu.style.top = '-100%';
 }
-console.log('hii')
+console.log('hii');
 
 
 
