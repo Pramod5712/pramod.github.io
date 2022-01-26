@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.50%;
+}
+
+
+.main{
+    height: 100vh; width: 100vw;
+
+}
+
+.firstrow{
+        display: flex;
+
+    height: 30rem; width: 100vw;
+}
+.box{
+   /* box-shadow: inset 0px 0px 5px black;*/
+    height: 30rem; width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*.ffb{
+    background: #FF8800D9;
+    height: 30vh; width: 40vw;
+}
+
+.ffb:hover{
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.fff{
+    background: #A1A9FF;
+    height: 30vh; width: 40vw;
+    position: relative;
+}
+*/
+
+
+
+
+
+
+.flip-card{
+
+   /* background:yellow ;*/
+    height: 24rem;
+    width: 17rem;
+    margin: auto;
+
+}
+.fcb{
+    background: #EADDFF;
+        transform: rotateY(180deg);
+z-index: 1;
+
+}
+
+
+.flip-card-inner{
+border-radius: 10px;
+    background: dimgray;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+
+}
+
+.fcb, .fcf{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+
+    backface-visibility: hidden;
+}
+.fcf{
+    background: #9921FF;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 10px 10px 0px;
+    overflow: hidden;
+
+}
+.fcb{
+    font-size: 2rem;
+    
+}
+
+.flip-card:hover .flip-card-inner{
+            transform: rotateY(180deg);
+
+}
+
+.fcf img{
+    height: 100%;
+    width: 100%;
+        border-radius: 0px 10px 10px 0px;
+
+    
+}
+
+
+.downloadsec,.listensec,.shopsec{
+    
+    height:33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+        background: #eaf6ff;
+
+    
+   /* box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
+    inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
+    text-shadow: 0px 0px 25px blue;
+    cursor: pointer;*/
+    
+}
+
+button{
+    display: flex;
+    width: 80%;
+    height: 40%;
+    background: #fff;
+    border: none;
+    font-size: 1.9rem;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 
+    5px 5px 10px rgba(9, 148, 255, 0.25),
+    -5px -5px 10px rgba(9, 148, 255, 0.1),
+    inset -5px -5px 10px rgba(9, 148, 255, 0.5);
+}
+
+button:hover{
+    box-shadow: 
+    5px 5px 10px rgba(9, 148, 255, 0.25),
+    -5px -5px 10px rgba(9, 148, 255, 0.1),
+    inset 5px 5px 10px rgba(9, 148, 255, 0.5);
+    cursor: pointer;
+        border-radius: 8px;
+
+}
+
+button img{
+    height: 2rem;
+}
+
+.iw{
+    
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}

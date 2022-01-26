@@ -24,7 +24,7 @@
 body {background: /*linear-gradient(#D1D4FF     ,#FFD1E4,#FFD1D1)*/whitesmoke;}
 
 
-body .main{background: /*linear-gradient(#D1D4FF,#FFD1E4,#FFD1D1)*/darkred;
+body .main{background: /*linear-gradient(#D1D4FF,#FFD1E4,#FFD1D1)*/;
     height: auto; width: 100vw;
     /* border: 10px solid blue;*/}
           
@@ -51,7 +51,8 @@ body div section ol a li{font-size: 17px;
 .subject{
     height: 60px;
     width:90%;
-    background: #080808;
+        background: #080808;
+
     color: #F4CE3F;
     display: flex;
     justify-content: center;
@@ -63,7 +64,6 @@ body div section ol a li{font-size: 17px;
     box-shadow: 3px 3px 7px black;}
 
 .section1{
-    background: hotpink;
 }
 
 
@@ -226,12 +226,10 @@ closeMenu.addEventListener('click',close);
 
 
 function show(){
-    alert('work');
     mainMenu.style.display = 'block';
     mainMenu.style.top = '0';
 }
 function close(){
-        alert('closed');
 
     mainMenu.style.display = 'none';
 }
