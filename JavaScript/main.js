@@ -28,10 +28,12 @@ document.getElementById('playlists')
     
 document.getElementById('courses')
     .addEventListener('click', function() {
-        location.href = 'courses.html'
-        //  console.log('clicked');
-    });
+        location.href = 'courses.html'});
     
+document.getElementById('books')
+    .addEventListener('click', function() {
+        location.href = 'books.html'});
+
     
 ///////////////////////////////HUMBURGER
     

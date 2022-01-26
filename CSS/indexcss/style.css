@@ -120,6 +120,10 @@ body{background: transparent;
     cursor: pointer;
 
 }
+.designonme:hover .gridphoto{
+    		width: 5.0rem;
+
+}
 :root {
     --clr-light: white;
     --clr-med: #d7dfe2;
@@ -156,15 +160,7 @@ body{background: transparent;
 	
 	
 	
-			.gridphoto{
-							width: 6.0rem;
-							
-							
-			}
-.gridphoto:hover{
-		width: 5.0rem;
-		color: red;
-				}
+			.gridphoto{width: 6.0rem;}
 				
 				
 #msgfv{
