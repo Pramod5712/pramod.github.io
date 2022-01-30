@@ -13,7 +13,13 @@
 
   <!-- Custom Styles -->
     <link rel="stylesheet" href="logsec.css">
-
+<style>
+.gallary{background: #FF8800D9;
+    height: 10vh; width: 50vw;
+    
+}
+    
+</style>
 </head>
 
 <body>
@@ -38,7 +44,7 @@
     </div>      
         
         
-    </div>
+    </div> 
     
     
     
@@ -46,9 +52,8 @@
     
     
 <div class="main">
-    <div class="opy">    <h1>PRAMOD-AASMA</h1>
-</div>
-
+    <div class="opy"><h1>PRAMOD-AASMA</h1></div>
+    <div class="gallary">gallary</div>
     
 </div>  
   <!-- Project -->
@@ -63,35 +68,18 @@
   
   
   <script>
-//var un = document.querySelector('#user');
-//var pass = document.querySelector('#passd');
 var btn = document.querySelector('.btn');
 var logsec = document.querySelector('.logsec');
 
-
-//var unv = un.value;
-//var passv = pass.value;
-
-/*btn.addEventListener('click',()=>{
-if(un=="a" && pass=="123"){
-            alert('sucess');
-
-}else{
-                alert('failed');
-
-}
-    
-});*/
+          
 
 
 
 btn.addEventListener('click',()=>{
-   // alert('hi');
    var un = document.forms["myform"]["un"].value;
 var pass = document.forms["myform"]["pass"].value;
 
 if(un=="a" && pass=="1"){
-  // window.location.href= 'aasma.html';
  document.querySelector('.logsec').style.display="none";
     
 }else{
@@ -102,18 +90,7 @@ if(un=="a" && pass=="1"){
 });
 
 
- /*  function log(){
-var un = document.forms["myform"]["un"].value;
-var pass = document.forms["myform"]["pass"].value;
-if(un=="a" && pass=="1"){
-   // window.location.href= 'aasma.html';
-   alert('welcome');
 
-    
-}else{
-    alert('nikal lowde');
-}
-    }*/
     
     
     
